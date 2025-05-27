@@ -48,7 +48,7 @@ function enviarPorWhatsApp() {
   const total = carrito.reduce((sum, p) => sum + p.precio, 0)
   mensaje += `Total: $${total}`
 
-  const url = `https://wa.me/3364528027?text=${encodeURIComponent(mensaje)}`
+  const url = `https://wa.me/3537594913?text=${encodeURIComponent(mensaje)}`
   window.open(url, "_blank")
 }
 
@@ -88,7 +88,7 @@ function enviarDatosYPedido() {
   mensaje += `Total: ${total}\n`
   mensaje += `Comprobante: el cliente lo enviará como imagen.`
 
-  const numero = "3462567793"
+  const numero = "3537594913"
 
   // Confirmación al usuario
   alert("Se abrirá WhatsApp. Por favor, adjuntá el comprobante de pago como imagen en el chat.")
