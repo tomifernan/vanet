@@ -25,6 +25,10 @@ p {
   text-align: center;
 }
 
+.vanet{
+font-size: 2em;
+}
+
 /* Navbar */
 .navbar {
   position: relative;
